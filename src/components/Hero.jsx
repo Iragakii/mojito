@@ -4,6 +4,7 @@ import { SplitText } from "gsap/all";
 import { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
 import React from "react";
+import videoSource from "../assets/videos/output.mp4";
 const Hero = () => {
  const videoRef = useRef();
  
@@ -115,9 +116,9 @@ const Hero = () => {
 			 muted
 			 playsInline
 			 preload="auto"
+			 src={videoSource}
 			 type="video/mp4"
 			>
-				<source src="/videos/output.mp4" type="video/mp4" />
 				Your browser does not support the video tag.
 			</video>
 		</div>
