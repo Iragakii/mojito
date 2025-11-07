@@ -116,6 +116,7 @@ const Hero = () => {
 			 playsInline
 			 preload="auto"
 			 src="/videos/output.mp4"
+			 type="video/mp4"
 			/>
 		</div>
 	</>
